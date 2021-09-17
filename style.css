@@ -152,14 +152,144 @@ section {
     font-style: oblique;
     text-transform: capitalize;
 }
-.sec6  {
+
+.con6 {
+    display: grid;
     width: 100%;
-    height: 599px;
+    background-color: palevioletred;
     justify-content: center;
+    text-align: center;
+    margin: 19px auto;
+    color: white;
 
 }
+.con6 h1 {
+    font-size: 59px;
+    color: white;
+    font-style: italic;
+}
+.imgcon {
+    display: flex;
+}
+.imgsec3 {
+    display: flex;
+    justify-content: center;
+    padding: 0 auto;
+    width: 100%;
+    
+
+}
+.imgsec3 img {
+    width: 79%;
+    height: 229px;
 }
 .imgsec {
+    display: flex;
     width: 79%;
+}
+.imgsec img {width: 29%;
+    height: 329px;
+    margin-right: 19px;   
+}
+.fasicon {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.fasicon:hover  {
+    font-size: 2rem;
+}
+.sec7 {
+    display: flex;
+    width: 100%;
+    height: 59vh;
+    background-color: white;
+    color: black;
+}
+.con7  {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        text-align: center;
+        margin: 39px auto;
+    
+}
+.imgsec2 {
+    display: flex;
+    margin-right: 25px;
+}
+.imgsec2 img {
+    margin-left: 15px;
+}
+.ccon {
+    text-align: left;
+}
+.ccon h3   {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.ccon span{
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.ccon p {
+    width: 69%;
+    font-size: 1rem;
+    line-height: 1.6rem  ;
+}
+.ccon button {
+    color: white;
+    background-color: black;
+    width: 49%;
+    font-size: 1rem;
+    padding: 9px 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
 
+
+.sec8 {
+    display: flex;
+    width: 100%;
+    height: 99vh;
+    background-color: white;
+    color: black;
+
+}
+
+.fullimg {
+    width: 99%;
+    background: url(./images/subscribe.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sub {
+    display: grid;
+    text-align: center;
+    width: 100%;
+    padding: 49px 39px;
+    justify-items: center;
+}
+.sub input {
+    height: 29px;
+    width: 295px;
+    padding: 9px 15px;
+}
+.sub button {
+    color: white;
+    background-color: black;
+    width: 139px;
+    height: 49px;
+    font-size: 1rem;
+    padding: 1px 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.sub p  {
+    width: 65%;
+    font-size: 1rem;
+}
+.icons {
+    color: black;
 }
